@@ -2,10 +2,6 @@ import json
 import logging
 from pathlib import PosixPath
 
-from django.conf import settings
-
-BANK_MARKETING_FILE_PATH = settings.BASE_DIR.joinpath("data/bank-marketing.json")
-ECOMMERCE_FILE_PATH = settings.BASE_DIR.joinpath("data/ecommerce.json")
 log = logging.getLogger(__name__)
 
 
